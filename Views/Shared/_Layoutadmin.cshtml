@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GameStudios</title>
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sharedGame.css">
+
+    <link href="~/Content/game.css" rel="stylesheet" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/sharedGame.css" rel="stylesheet" />
+    <link href="~/css/sharedPlayer.css" rel="stylesheet" />
+
+   
+
+</head>
+
+<body style="padding-top: 50px; background-image:url(/Images/goldback2.jpg); " id="style-1">
+    <nav class="navbar  navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="submit" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="nav navbar-collapse collapse">
+                <ul class="nav navbar-nav nav-pills" style="margin:auto;">
+                    <li><img class="headerLogo img-responsive" src="/Images/headertab.png" /><a class="headerLogoAnchor" style="z-index:10000;position:absolute;width:225px;top:-39px;left:72px;font-size:25px;font-weight:bold;color:#fff;" href="#"><img class="img-responsive" style="height:110px;" src="/Images/logo.png" /></a></li>
+                    <li class="active"><a class="pills" href="/admin/GameIndex">Home</a></li>
+                    <li><a class="pills" href="/admin/GameAbout">About</a></li>
+                    <li><a class="pills" href="/admin/Players">Teams</a></li>
+                    <li><a class="pills" href="/admin/Tournament">Tournaments</a></li>
+                    <li><a class="pills" href="/admin/Logout">Log Out</a></li>
+                </ul>
+                <!--<form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" />
+                    </div>
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>-->
+                   
+           </div>
+        </div>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <div class="col-sm-12 faIconsDiv">
+        <a href="#"><i class="fa fa-facebook fa-3x faIcons fb" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter fa-3x faIcons tw" aria-hidden="true"></i></a>
+        <a href="#"> <i class="fa fa-instagram fa-3x faIcons insta" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p fa-3x faIcons pin" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-snapchat-ghost fa-3x snap" aria-hidden="true"></i></a>
+
+    </div>
+
+    <footer class="footer col-sm-12">
+
+        <p style="text-align:center;">&copy; Money Match Gaming 2017 </p>
+
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+        });
+    </script>
+</body>
+</html>

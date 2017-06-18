@@ -1,0 +1,303 @@
+﻿@{
+    ViewBag.Title = "GameIndex";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+
+<div class="col-sm-12 sliderDiv">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-1" style="padding:0px !important;">
+        <img class="img-responsive" src="/Images/leftside.png" style="height:487px;width:80px;margin-left:30px;margin-top:10px;" />
+    </div>
+    <div class="col-sm-8" style="padding:0px !important;border:2px solid #FFB63E;">
+
+        <div id="imgCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="overflow:hidden;margin:auto;">
+            <ol class="carousel-indicators">
+                <li data-target="#imgCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#imgCarousel" data-slide-to="1"></li>
+                <li data-target="#imgCarousel" data-slide-to="2"></li>
+                <li data-target="#imgCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="/Images/10.jpg" class="img-responsive" />
+                    <!--<div class="carousel-caption">
+                        <h3>1st Image</h3>
+                        <p>Good first image</p>
+                    </div>-->
+                </div>
+                <div class="item">
+                    <img src="/Images/shutterstock_375314296.jpg" class="img-responsive" />
+
+                </div>
+                <div class="item">
+                    <img src="/Images/12.jpg" class="img-responsive" />
+
+                </div>
+                <div class="item">
+                    <img src="/Images/15.jpg" class="img-responsive" />
+
+                </div>
+
+            </div>
+            <a href="#imgCarousel" class="carousel-control left" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#imgCarousel" class="carousel-control right" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+    <div class="col-sm-1" style="padding:0px !important;">
+        <img class="img-responsive" src="/Images/rightside.png" style="height:487px;width:80px;margin-top:10px;" />
+    </div>
+    <div class="col-sm-1"></div>
+</div>
+<!--start-->
+<div class="col-sm-8 col-sm-offset-2 " style="margin-bottom:100px;">
+    <div class="col-sm-7">
+
+        <div><img class="imgDiv img-responsive" src="/Images/leftupperpane.png" /></div>
+        <div class="contentDiv">
+            <div style="position: absolute;top: -42px;left: 40px; color:white;"><h3>Latest News</h3></div>
+            <p style="color: white;">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+        </div>
+    </div>
+    <div class="col-sm-5 clearfix ">
+        <div><img class="imgDiv img-responsive" src="/Images/leftupperpane.png" /></div>
+        <div class="contentDiv" style="width:100%;">
+            <div style="position: absolute; top: -42px; left: 40px; color: white;"><h3>Latest Reviews</h3></div>
+            <div><p style="color: white;">1. Game 1 <span class="pull-right">9.2</span></p></div>
+            <div><p style="color: white;">2. Game 2 <span class="pull-right">9.2</span></p></div>
+            <div><p style="color: white;">3. Game 3 <span class="pull-right">9.2</span></p></div>
+            <div><p style="color: white;">4. Game 4 <span class="pull-right">9.2</span></p></div>
+            <div><p style="color: white;">5. Game 5 <span class="pull-right">9.2</span></p></div>
+            <div><p style="color: white;">6. Game 6 <span class="pull-right">9.2</span></p></div>
+        </div>
+    </div>
+</div>
+<!--End-->
+<div class="col-sm-12" style="border:2px solid #FFB63E;border-left:0px;border-right:0px;padding:15px;margin-bottom:20px;color: #0ed364; background:#000;">
+    <h1 style="text-align:center;font-weight:bold;">Events Schedule</h1>
+</div>
+<div class="col-sm-12" style="margin-bottom:100px;">
+    <div class="col-sm-4">
+        <div style="border:2px solid #FFB63E;height:290px;width:100%;border-radius:5px;text-align:center;">
+            <table style="background:#000;" id="calendar-2017-04" class="calendar" border="0" cellspacing="0" cellpadding="0" summary="Calendar for April 2017">
+                <thead>
+                    <tr>
+                        <th colspan="7" class="monthName" style="font-size:22px; color:white;">April</th>
+                    </tr>
+                    <tr class="dayName">
+                        <th id="calendar-2017-04-sun" scope="col"><abbr title="Sunday" style="color:white;">Sun</abbr></th>
+                        <th id="calendar-2017-04-mon" scope="col"><abbr title="Monday" style="color: white;">Mon</abbr></th>
+                        <th id="calendar-2017-04-tue" scope="col"><abbr title="Tuesday" style="color: white;">Tue</abbr></th>
+                        <th id="calendar-2017-04-wed" scope="col"><abbr title="Wednesday" style="color: white;">Wed</abbr></th>
+                        <th id="calendar-2017-04-thu" scope="col"><abbr title="Thursday" style="color: white;">Thu</abbr></th>
+                        <th id="calendar-2017-04-fri" scope="col"><abbr title="Friday" style="color: white;">Fri</abbr></th>
+                        <th id="calendar-2017-04-sat" scope="col"><abbr title="Saturday" style="color: white;">Sat</abbr></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="specialDay weekendDay" data-date="2017-04-01" headers="calendar-2017-04-sat">
+                            <a href="/search/by_date/2017-04-01">01</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="specialDay weekendDay" data-date="2017-04-02" headers="calendar-2017-04-sun">
+                            <a href="/search/by_date/2017-04-02">02</a>
+                        </td>
+                        <td class="normalDay" data-date="2017-04-03" headers="calendar-2017-04-mon">03</td>
+                        <td class="specialDay" data-date="2017-04-04" headers="calendar-2017-04-tue">
+                            <a href="/search/by_date/2017-04-04">04</a>
+                        </td>
+                        <td class="normalDay" data-date="2017-04-05" headers="calendar-2017-04-wed">05</td>
+                        <td class="specialDay" data-date="2017-04-06" headers="calendar-2017-04-thu">
+                            <a href="/search/by_date/2017-04-06">06</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-07" headers="calendar-2017-04-fri">
+                            <a href="/search/by_date/2017-04-07">07</a>
+                        </td>
+                        <td class="specialDay weekendDay" data-date="2017-04-08" headers="calendar-2017-04-sat">
+                            <a href="/search/by_date/2017-04-08">08</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="specialDay weekendDay" data-date="2017-04-09" headers="calendar-2017-04-sun">
+                            <a href="/search/by_date/2017-04-09">09</a>
+                        </td>
+                        <td class="specialDay today" data-date="2017-04-10" headers="calendar-2017-04-mon">
+                            <a href="/search/by_date/2017-04-10">10</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-11" headers="calendar-2017-04-tue">
+                            <a href="/search/by_date/2017-04-11">11</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-12" headers="calendar-2017-04-wed">
+                            <a href="/search/by_date/2017-04-12">12</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-13" headers="calendar-2017-04-thu">
+                            <a href="/search/by_date/2017-04-13">13</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-14" headers="calendar-2017-04-fri">
+                            <a href="/search/by_date/2017-04-14">14</a>
+                        </td>
+                        <td class="specialDay weekendDay" data-date="2017-04-15" headers="calendar-2017-04-sat">
+                            <a href="/search/by_date/2017-04-15">15</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="normalDay weekendDay" data-date="2017-04-16" headers="calendar-2017-04-sun">16</td>
+                        <td class="specialDay" data-date="2017-04-17" headers="calendar-2017-04-mon">
+                            <a href="/search/by_date/2017-04-17">17</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-18" headers="calendar-2017-04-tue">
+                            <a href="/search/by_date/2017-04-18">18</a>
+                        </td>
+                        <td class="normalDay" data-date="2017-04-19" headers="calendar-2017-04-wed">19</td>
+                        <td class="specialDay" data-date="2017-04-20" headers="calendar-2017-04-thu">
+                            <a href="/search/by_date/2017-04-20">20</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-21" headers="calendar-2017-04-fri">
+                            <a href="/search/by_date/2017-04-21">21</a>
+                        </td>
+                        <td class="specialDay weekendDay" data-date="2017-04-22" headers="calendar-2017-04-sat">
+                            <a href="/search/by_date/2017-04-22">22</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="specialDay weekendDay" data-date="2017-04-23" headers="calendar-2017-04-sun">
+                            <a href="/search/by_date/2017-04-23">23</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-24" headers="calendar-2017-04-mon">
+                            <a href="/search/by_date/2017-04-24">24</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-25" headers="calendar-2017-04-tue">
+                            <a href="/search/by_date/2017-04-25">25</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-26" headers="calendar-2017-04-wed">
+                            <a href="/search/by_date/2017-04-26">26</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-27" headers="calendar-2017-04-thu">
+                            <a href="/search/by_date/2017-04-27">27</a>
+                        </td>
+                        <td class="specialDay" data-date="2017-04-28" headers="calendar-2017-04-fri">
+                            <a href="/search/by_date/2017-04-28">28</a>
+                        </td>
+                        <td class="specialDay weekendDay" data-date="2017-04-29" headers="calendar-2017-04-sat">
+                            <a href="/search/by_date/2017-04-29">29</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="specialDay weekendDay" data-date="2017-04-30" headers="calendar-2017-04-sun">
+                            <a href="/search/by_date/2017-04-30">30</a>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-8 ">
+        <div class="clearfix" style="border:2px solid #FFB63E;width:100%;border-radius:5px;">
+            <div class="event col-sm-12 clearfix">
+                <div class="col-sm-2">
+                    <p class="datee">03 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">Hippo Campus - POSTPONED TO May 20th</p>
+                    <p class="eventMinor">Newport Music Hall — Columbus, OH</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+
+            </div>
+            <div class="event col-sm-12">
+                <div class="col-sm-2">
+                    <p class="datee">05 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">WYEP & Pioneer Records Present Chase and the Barons</p>
+                    <p class="eventMinor">Stage AE — Pittsburgh, PA</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+            </div>
+            <div class="event col-sm-12">
+                <div class="col-sm-2">
+                    <p class="datee">16 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">Hippo Campus - POSTPONED TO May 20th</p>
+                    <p class="eventMinor">Newport Music Hall — Columbus, OH</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+            </div>
+            <div class="event col-sm-12">
+                <div class="col-sm-2">
+                    <p class="datee">19 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">Hippo Campus - POSTPONED TO May 20th</p>
+                    <p class="eventMinor">Newport Music Hall — Columbus, OH</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+
+            </div>
+            <div class="event col-sm-12">
+                <div class="col-sm-2">
+                    <p class="datee">22 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">WYEP & Pioneer Records Present Chase and the Barons</p>
+                    <p class="eventMinor">Stage AE — Pittsburgh, PA</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+            </div>
+            <div class="event col-sm-12">
+                <div class="col-sm-2">
+                    <p class="datee">22 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">Hippo Campus - POSTPONED TO May 20th</p>
+                    <p class="eventMinor">Newport Music Hall — Columbus, OH</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+
+            </div>
+            <div class="event col-sm-12">
+                <div class="col-sm-2">
+                    <p class="datee">22 MAR</p>
+                </div>
+                <div class="col-sm-7">
+                    <p class="eventDetails">WYEP & Pioneer Records Present Chase and the Barons</p>
+                    <p class="eventMinor">Stage AE — Pittsburgh, PA</p>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="eventBtn">Event Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

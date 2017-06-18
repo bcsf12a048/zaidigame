@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "MailSending";
+    Layout = "~/Views/Shared/_Layouthome.cshtml";
+}
+
+
+<!--End-->
+<div class="col-sm-12" style="border:2px solid #FFB63E;border-left:0px;border-right:0px;padding:15px;margin-bottom:20px;color: #0ed364; background:#000;">
+    <h1 style="text-align:center;font-weight:bold;">Please Confirm Your Email Address</h1>
+</div>
+
+    <div class="col-sm-12" style="text-align: center;">
+        <form action="/home/EnterCode/@Model.Id" method="post">
+            <br>
+            <br>
+            <br>
+
+            <input type="text" name="code1" id="code" placeholder="Please Enter The Code">
+            <br>
+            <br>
+            <input type="submit" name="Signup" id="code" style="color:black" class="login loginmodal-submit" value="Confirm">
+<br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+
+    </div>

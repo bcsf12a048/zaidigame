@@ -1,0 +1,486 @@
+﻿body {
+            background: url(/Images/goldback2.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: #fff;
+        }
+		.participant{
+			background:#000;
+			height:100px;
+			margin-right:20px;
+			border:2px solid #FFB63E;
+			border-radius:3px;
+		}
+		.padding-0{
+			padding-left:0px;
+			padding-right:0px;
+		}
+		.matchHeader{
+			
+			background:#0ed364;
+			color:#fff;
+			padding:20px;
+			text-align:center;
+		}
+		.matchBody{
+			padding:10px;
+			text-align:center;
+			font-size:14px;
+			background:#fff;
+			
+			box-sizing: border-box;
+			width:100%;
+			display: table-cell;
+			min-height:133px;
+			text-align: center;
+			vertical-align: top;
+		}
+		.matchBody:hover{
+			padding:10px;
+			text-align:center;
+			font-size:14px;
+			background:#ccc;
+			
+			box-sizing: border-box;
+			width:100%;
+			display: table-cell;
+			min-height:133px;
+			text-align: center;
+			vertical-align: top;
+		}
+		.match-top-desc{
+			color: #fff;
+			font-weight: 600;
+			font-size: 14px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			margin:0px;
+			transition: color 0.2s ease;
+		}
+		.match-top-title{
+			color: #fff;
+			font-size: 12px;
+			font-weight: normal;
+			margin-top:0px;
+			margin-bottom:5px;
+			letter-spacing: 1.7px;
+			line-height: 1;
+			text-transform: uppercase;
+			transition: color 0.2s ease;
+		}
+		.match-content-title{
+			color: #232323;
+			font-size: 14px;
+			font-weight: 600;
+			letter-spacing: 0;
+			line-height: 1.4;
+			text-transform: uppercase;
+			margin-top:0px;
+			margin-bottom: 10px;
+		}
+		.match-content-desc{
+			color: #232323;
+			font-size: 14px;
+			margin:0px;
+			font-weight: normal;
+			line-height: 1.5;
+		}
+         .footer {
+            color: white;
+            padding: 40px 30px 50px 30px;
+            background-color: #FFB63E;
+            height: 100px;
+            bottom: 0px;
+            font-size: 14px;
+        }
+
+        .navbar {
+            border-top: 5px solid #FFB63E;
+        }
+
+        .event {
+            border-bottom: 1px solid #FFB63E;
+            height: 100px;
+            padding-top: 30px;
+        }
+
+        .eventBtn {
+            border: 3px solid #0ed364;
+            padding: 10px 15px;
+            background: #000;
+            color: #FFB63E;
+            font-weight: bold;
+            border-radius: 3px;
+        }
+
+            .eventBtn:hover {
+                border: 3px solid #0ed364;
+                padding: 10px 15px;
+                background: #0ed364;
+                color: #000;
+                font-weight: bold;
+                border-radius: 3px;
+            }
+
+        .datee {
+            font-size: 15px;
+            font-weight: bold;
+            color: #0ed364;
+        }
+
+        .eventDetails {
+            font-size: 15px;
+            font-weight: bold;
+            color: #0ed364;
+        }
+
+
+
+        .eventMinor {
+            font-size: 12px;
+            color: #fff;
+        }
+
+        table.calendar {
+        }
+
+        table {
+            width: 100%;
+            height: 285px;
+            padding: 5px;
+        }
+
+        .pills {
+            margin-top: 15px;
+            display: inherit;
+            width: 148px;
+            height: 32px;
+            position: relative;
+            box-sizing: border-box;
+            overflow: visible;
+            background: url(http://static.parastorage.com/services/skins/2.1229.63/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
+            text-align: center;
+            padding-top: 5px !important;
+        }
+
+            .pills:hover {
+                margin-top: 15px;
+                display: inherit;
+                width: 148px;
+                height: 32px;
+                position: relative;
+                box-sizing: border-box;
+                overflow: visible;
+                background: gray url(http://static.parastorage.com/services/skins/2.1229.63/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
+                text-align: center;
+                padding-top: 5px !important;
+            }
+
+        .navbar-inverse .navbar-nav > li > a {
+            color: #fff;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+            background: #FFB63E url(http://static.parastorage.com/services/skins/2.1229.63/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
+            height: 32px;
+            padding-top: 5px;
+        }
+
+        .headerLogo {
+            width: 382px;
+            height: 65px;
+        }
+
+        .faIcons {
+            margin-right: 15px;
+        }
+
+        .faIconsDiv {
+            height: 100px;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .faIconsDiv a {
+                color: white;
+            }
+
+        .headerLogoAnchor {
+        }
+
+        .carousel {
+            height: 500px !important;
+            width: 800px !important;
+            margin-left: 39px;
+        }
+
+        .fb:hover {
+            color: #3b5998;
+        }
+
+        .tw:hover {
+            color: #00aced;
+        }
+
+        .snap:hover {
+            color: #fffc00;
+        }
+
+        .pin:hover {
+            color: #bd081c;
+        }
+
+        .insta:hover {
+            color: #0ed364;
+        }
+
+        .event:hover {
+            background: #FFB63E
+        }
+
+        .sliderDiv {
+            margin-bottom: 150px;
+            margin-top: 30px;
+        }
+
+        #style-1::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 10px;
+            background-color: #555;
+        }
+
+        #style-1::-webkit-scrollbar {
+            width: 12px;
+            background-color: #555;
+        }
+
+        #style-1::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #FFB63E;
+        }
+
+        .imgDiv {
+            left: 15px;
+            position: absolute;
+            top: -38px;
+            width: 298px;
+            height: 60px;
+            border-bottom: 5px solid #FFB63E;
+        }
+
+        .contentDiv {
+            border: 0.5px solid #FFB63E;
+            height: 300px;
+            width: 100%;
+            border-radius: 5px;
+            padding: 10px;
+            padding-top: 30px;
+            font-size: 18px;
+            background: #000;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+
+        .game_name {
+            position: absolute;
+            right: 50px;
+            top: 125px;
+            background-color:white;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .tournament-header {
+            border: 2px solid #FFB63E;
+            border-left: 0px;
+            border-right: 0px;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: #0ed364;
+            background: #000;
+        }
+
+        .t-heading {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .tournament-card {
+            border: 2px solid #FFB63E;
+            background: #000;
+            height: 226px;
+        }
+
+        .panel-heading {
+            border-bottom: 2px solid #FFB63E;
+        }
+
+        .tournament_logo_url {
+            height: 54px;
+            max-width: 120px;
+        }
+
+        .chat {
+            color: yellow;
+        }
+
+            .chat:hover {
+                color: #0ed364;
+            }
+            .imgDiv1{
+    left: 30px; 
+    position: absolute;
+    top: -8px;
+     width: 298px;
+     height: 60px;
+     border-bottom:5px solid #FFB63E;
+}
+        .contentDiv {
+            border: 0.5px solid #FFB63E;
+            height: auto;
+            width: 100%;
+            border-radius: 5px;
+            padding: 10px;
+            padding-top: 30px;
+            font-size: 18px;
+            background: #000;
+        }
+
+.participant{
+			background:#000;
+			height:100px;
+			margin-right:20px;
+			border:2px solid #FFB63E;
+			border-radius:3px;
+		}
+		.padding-0{
+			padding:0px;
+		}
+		.artDiv
+		{
+			border: 0.5px solid #FFB63E;
+			height:100%;
+            width: 100%;
+            border-radius: 5px;
+            padding: 10px;
+            padding-top: 30px;
+            font-size: 18px;
+            background: #000;
+			margin-bottom:40px;
+		}
+		.featureImg{
+			height:100px;
+			width:160px;
+			margin-right:10px;
+			margin-bottom:10px;
+		}
+
+  
+        .loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+ 
